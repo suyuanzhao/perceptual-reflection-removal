@@ -77,7 +77,7 @@ def nm(x):
     return w0*x+w1*slim.batch_norm(x)
 
 #vgg_path=scipy.io.loadmat('./VGG_Model/imagenet-vgg-verydeep-19.mat')
-print("[i] Loaded pre-trained vgg19 parameters")
+#print("[i] Loaded pre-trained vgg19 parameters")
 # build VGG19 to load pre-trained parameters
 #def build_vgg19(input,reuse=False):
 #    with tf.variable_scope("vgg19"):
